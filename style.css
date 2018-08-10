@@ -1,0 +1,366 @@
+*{margin: 0;
+padding: 0;}
+
+body{font-family: 'Open Sans', sans-serif;
+}
+
+a{text-decoration: none;}
+li{list-style: none;}
+
+header{
+	width: 100%;
+	background-image: url(fon3.jpg);
+	display: flex;
+
+}
+
+.header_logo{
+	text-transform: uppercase;
+	color: white;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 56px;
+	margin-left: 12%;
+}
+
+nav{
+	margin-top: 56px;
+	margin-left: 29%;
+	z-index: 30;
+}
+
+.topnav a{
+	color: white;
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.topnav a:hover{
+	border-bottom: 3px solid white;
+
+}
+
+
+
+
+
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+main .main_welcome{
+	text-align: center;
+	padding: 200px 0 410px 0;
+	background-image: url(fon.jpg);
+	z-index: 20;
+}
+
+main .main_welcome p{
+	font-size: 24px;
+	color: white;
+} 
+main .main_welcome h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 44px;
+	color: white;
+} 
+.main_welcome h1:after{
+	display: none;
+}
+.mycompany{
+	color: #eba971;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.wrapper{ 
+	width: 76%;
+    margin: 0 auto;}
+
+.wrapper1{ 
+	width: 85%;
+    margin: 0 auto;}    
+
+main .main_about{
+	display: flex;
+	padding: 100px 0 100px 0;
+}
+
+.about_right{
+	margin-left: 175px;
+}
+.about_right h1{
+	display: inline-block;
+	border-bottom: 3px solid #6632b2;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	font-weight: 100;
+}
+/*лишняя линия*/
+.about_right h1:after{
+	display: none; 
+}
+
+#q{font-weight: bold;}
+.about_right p{
+	margin: 30px 0 50px 0;
+	color: #aeaeae;
+}
+.about_right li{
+	background: url(marc.png) 0px no-repeat;
+	padding-left: 25px;
+	white-space: nowrap;
+	margin-top: 10px;
+}
+.about_left{text-align: center;}
+
+.mw-100{
+	min-width: 100%;
+	
+}
+
+.main_team{
+	background-image: url(fon1.jpg);
+	padding-bottom: 100px;
+	text-align: center;
+	color: #fff;
+}
+
+.main_team h1{
+	font-size: 44px;
+	padding-bottom: 30px;
+}
+
+/*ставим бордер под заголовкми h1*/
+h1:after{
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	padding-top: 30px;
+	border-bottom: 3px solid #6632b2;
+}
+.photo {
+	height: 125px;
+	width: 125px;
+	background: #d7d7d7;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+.team_cards{display: flex;
+margin-top: 100px;}
+.name{
+	font-size: 20px;
+}
+.position {
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+.card {
+	margin: 0 40px;
+}
+.serivices_cards {
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;
+}
+.main_services h1{
+	text-align: center;
+	padding:100px 0 30px 0;
+}
+	
+
+}
+.main_services p{
+	color: #6c6c6c;
+	padding-bottom: 100px;
+}
+.services_card{padding-top: 50px;}
+.services_card h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.services_card p{
+	margin-bottom: 100px;
+}
+.main_work{
+	text-align: center;
+}
+.main_work h1{
+	padding: 100px 0 30px 0;
+	
+}
+.main_work p{
+	padding: 57px 0 180px 0;
+	
+}
+.line3{
+	padding-bottom: 100px;
+}
+.main_work img:hover{   /*прозрачность картинок при наведении*/
+	opacity: 0.8;
+}
+.contact-wrapper{
+	width: 70%;
+	margin: 0 auto;
+}
+.input_star{
+	color: red;
+}
+.form_inputs{
+	display: flex;
+}
+textarea{
+	width: 100%;
+	height: 163px;
+}
+input{
+	width: 360px;
+	height: 40px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+input:first-of-type{
+	margin-right: 20px;
+}
+input, textarea{
+   border: 1px solid #999999;
+   margin-top: 5px;
+}
+.button_block{text-align: right;}
+input[type="submit"]{
+	width: 165px;
+	height: 40px;
+	margin-right: 0;
+	background: #7e644c;
+	color: white;
+}
+.contact_form{
+	background-image: url(fon2.jpg);
+
+}
+
+.contact_form h1{
+	text-align: center;
+	margin-top: 100px;
+	color: white;
+}
+.contact-wrapper>p{
+	margin-bottom: 100px;
+	margin-top: 30px;
+	font-size: 18px;
+	color: white;
+}
+.social {
+	text-align: center;
+}
+.social img{
+	margin: 30px 0 30px 15px ;
+}
+footer{
+	background: #222222;
+}
+.social img:hover{
+	opacity: 0.7;
+}
+
+/*медиа фкнкции для разного поведения сайта при разных разрешениях*/
+@media screen and (max-width: 1200px) {
+	nav{margin-left: 20%}
+	.last_img{display: none;}
+}
+@media screen and (max-width: 1105px) {
+	nav{margin-left: 9%;}
+
+}
+@media screen and (max-width: 1125px) {
+	nav{margin-left: 9%;}
+
+
+@media screen and (max-width: 1010px) {
+	.topnav a{display: none;}
+	.topnav a.icon{
+		float: right;
+		margin-top: -17px;
+		display: block;
+		color: #fff;
+		font-size: 25px;
+	}
+	nav{width: 100%;}
+
+   .topnav.responsive{
+	position: relative;
+	top: 50px;
+	left: -200px;
+    }
+	header .topnav.responsive{
+		height: 340px;
+	}
+	.topnav.responsive a.icon{
+		position: absolute;
+		top: -50px;
+		right: -200px;
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	
+	main .main_welcome {
+		padding: 50px 0 50px 0;
+	}
+	main .main_welcome p{
+		font-size: 14px;
+	}
+	main .main_welcome h1{
+		font-size: 25px;
+	}
+	.mw-100{
+		max-width: 100%;
+	}
+	.main_about{
+		flex-direction: column;
+	}
+	.about_right{
+		text-align: center;
+		margin-left: 0;
+	}
+	.about_right li{
+		text-align: left;
+	}
+	.about_right h1{
+		font-size: 20px;
+		padding-bottom: 0;
+	}
+	.team_cards{
+		flex-direction: column;
+    }
+    .serivices_cards{
+    	grid-template-columns: auto;
+    }
+    /*выводим только 1ну картинку на маленьком экране*/
+    .line1 img:not(:first-child) {
+    	display: none;
+    }
+    .line2 img:not(:first-child) {
+    	display: none;
+    }
+    .line3 img:not(:first-child) {
+    	display: none;
+    }
+
+    .form_inputs{
+    	flex-direction: column;
+
+    }
+	input{width: 100%;}
+
+}
